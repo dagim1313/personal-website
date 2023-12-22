@@ -1,0 +1,155 @@
+body{
+  overflow: scroll;
+}  
+img.profile{
+  height: 68px;
+  border-radius: 50%;
+} 
+img.profile:hover{
+  cursor: pointer; 
+  animation: shake 2s ;
+  animation-iteration-count: infinite;
+} 
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.parallax {
+  /* The image used */
+  background-image: url("img2.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img.id{
+  height: 90px;
+  width: 90px;
+  background-color: red;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+  transition: width 1s , height 1s;
+} 
+img.id:hover{
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+} 
+nav{
+  width: 100%; 
+  height: 70px; 
+  background-color:gold;
+  border-radius: 4px;  
+  overflow: hidden;
+  
+  
+  
+}  
+
+.topnav{
+  float: right; 
+  padding: 14px 16px;
+  margin-top: 15px;
+  font-size: 21px;
+  color: black;
+  font-weight: bolder; 
+  text-decoration: none;
+  margin-right: 30px; 
+  display: inline;
+  
+} 
+a.topnav:hover{
+  color: red; 
+  
+} 
+hr{
+  height: 5px;
+  background-color: black;
+}
+ section{
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin: 16px;
+  font-family: Arial;
+ } 
+ 
+
+ footer{ 
+  
+  width: 100%;
+  background-color: bisque; 
+  margin: 50px 10px 10px 10px;
+ }  
+ .foot h1 {
+  padding: 20px;;
+ }  
+ .foot h2 {
+  text-align: center;
+ } 
+ iframe{
+  width: 100%;
+  height: 500px; 
+  display: block; 
+  margin-bottom: 0%;
+  margin-right: 0%;
+  padding-left: 0%; 
+  border: none; 
+  zoom: 100%;
+  
+ } 
+ .certificate{ 
+  display: inline; 
+  width: 100%;
+  height: 100%; 
+
+ }
+  button{
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: larger; 
+    font-weight: bolder;
+    background-color: sienna;
+
+    
+  }  
+  button:hover{
+    opacity: 0.7;
+  }
+#about{
+  width: 100%;
+  height: 500px;
+  margin: 20px;
+}
+  .hero{
+    background-image: url("dagim.jpg"); 
+    height: 400px;
+    
+    background-repeat: no-repeat; 
+    
+    
+  } 
+  body, html {
+    height: 100%;
+}
+
+  .hero-text{
+    text-align: center;
+  }

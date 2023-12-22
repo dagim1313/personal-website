@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="slideshow.css">
+<link rel="stylesheet" href="portfolio.css">
+
+<script src="js.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body> 
+ 
+<nav>
+
+  <img title="dagim" class="profile" src="dagim.jpg" alt="profile pic">
+   
+    <a title="refresh home page" href="index.html" class="topnav">Home  </a>
+    
+    <a title="curiculem vita" href="#Portfolio" class="topnav">CV </a>
+    <a title="About dagim hailegebrel" href="#about" class="topnav">About </a>
+    
+      
+  
+</nav>
+
+<div class="parallax"></div>
+
+
+<img class="id" src="dagim.jpg">  
+
+<section id="Portfolio">
+  <h1>My CV</h1> 
+  <hr>
+  <iframe src="dagim.pdf"   frameborder="2"></iframe>
+  
+  
+</section>  
+
+<div id="about">
+  <h1>About</h1>
+  <hr> 
+   <div class="hero">
+
+    <div class="hero-text">
+      <h1>I am Dagim Hailgbrel</h1>
+      <p>And I am health informatician </p> 
+      <P>University of Gondar</P>
+      <button>Learn more</button>
+    </div>
+
+
+   </div>
+  
+  </div>
+
+
+
+
+
+
+   
+
+  <footer class="foot">
+    <h1 >contact</h1> <br> 
+
+<hr>
+    <h2 >© Dagim H. All Rights Reserved.</h2>
+
+  </footer>
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top">back to top</button>
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    
+  </body>
